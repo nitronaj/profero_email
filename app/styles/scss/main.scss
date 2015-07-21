@@ -1,0 +1,96 @@
+@import "ink";
+
+// Custom styles
+a{
+	display: inline-block;
+}
+
+.last{
+	padding-right: 0 !important;
+}
+
+
+.text-right{
+	text-align: right;
+}
+
+//text colors
+.text-white{
+	color: #ffffff !important;
+}
+
+.text-grey{
+	color: #898a8e !important;
+}
+
+.text-red{
+	color: #c6241f !important;
+}
+
+table.container .header-wrapper{	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d0d0d0+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #d0d0d0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d0d0d0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#d0d0d0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d0d0d0',GradientType=0 ); /* IE6-9 */
+}
+
+table.col-left{
+	width: 333px
+}
+
+table.col-right{
+	width: 292px;
+	margin-bottom:20px;
+}
+
+
+
+.logo-container{
+	position: relative;
+	>a{
+		display: block;
+	}
+	.social-links{
+		list-style:none;
+		margin: 0;
+		right: 10px;
+		position: absolute;
+		padding: 0;
+		top: 23px;
+		width: 60px;
+
+		td{
+			display: inline-block;
+			padding-right: 8px;
+			width: 22px;
+			a{
+				display: block;
+			}
+
+		}
+	}
+}
+
+
+table.content{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ececec+0,fefefe+100 */
+	background: #ececec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ececec 0%, #fefefe 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ececec), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ececec 0%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ececec 0%,#fefefe 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ececec 0%,#fefefe 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ececec 0%,#fefefe 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+table.footer p{
+	text-align:center;	
+}

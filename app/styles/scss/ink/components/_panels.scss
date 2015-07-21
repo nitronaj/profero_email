@@ -1,0 +1,49 @@
+// Ink by ZURB
+// zurb.com/ink/
+// Licensed under MIT Open Source
+
+@import "global";
+
+//
+// @variables
+//
+
+//
+// @variables
+//
+
+$include-html-panel-classes: $include-html-classes !default;
+
+$panel-bg: #1d1d1d !default;
+$panel-border-style: solid !default;
+$panel-border-color: #d9d9d9 !default;
+$panel-border-size: 0px !default;
+$panel-anchor-font-color: #c6241f;
+
+@include exports("panel") {
+	@if $include-html-panel-classes {
+		/* Panels */
+
+		.panel {
+		  background: color2hex($panel-bg);
+		  border: $panel-border-size $panel-border-style color2hex($panel-border-color);
+		  padding: $panel-padding !important;
+
+		  a{
+		  	color: color2hex($panel-anchor-font-color); 
+		  	&:focus,
+		  	&:visited{
+		  		color: color2hex($panel-anchor-font-color) !important;  
+		  	}
+		  }
+		}
+
+		.sub-grid table {
+		  width: 100%;
+		}
+
+		.sub-grid td.sub-columns {
+		  padding-bottom: 0;
+		}
+	}
+}
